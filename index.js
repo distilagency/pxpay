@@ -1,6 +1,6 @@
 var request = require('request');
 var xml = require('xml');
-var url = 'https://sec.paymentexpress.com/pxaccess/pxpay.aspx';
+var url = 'https://uat.paymentexpress.com/pxaccess/pxpay.aspx';
 
 var txtTypes = ['Purchase', 'Auth', 'Complete', 'Refund', 'Validate'];
 var SUCCESS_STATUS = 1;
